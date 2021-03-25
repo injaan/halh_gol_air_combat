@@ -1,0 +1,11 @@
+randomize();
+depth=-4;
+plane_spd = irandom_range(2,4);
+turn_spd = irandom_range(3,5);
+left_right = irandom_range(1,3);
+turn_alarm = irandom_range(350,600);
+turn_left = false;
+turn_right = false;
+alarm[1]=5;
+alarm[0]=turn_alarm;
+life=4;
